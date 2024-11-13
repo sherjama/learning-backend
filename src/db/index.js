@@ -9,7 +9,7 @@ const DbConnect = async () => {
 
     console.log("\n mogodb connected !! DB HOST : ", connect.connection.host);
 
-    console.log("\n ", connect);
+    // console.log("\n ", connect);
   } catch (error) {
     console.log(process.env.MONGODB_URI);
 
